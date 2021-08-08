@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | [Blogr]</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Style-->
+    <link href="style.css" rel="stylesheet" />
+
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="hero">
+      <header>
+        <div class="logo-nav-desktop">
+          <div class="logo">
+            <img src="images/logo.svg" alt="logo" />
+          </div>
+          <nav class="nav__desktop">
+            <ul>
+              <div>
+                <li class="title-menu-desktop">
+                  Product <img src="./images/icon-arrow-light.svg" />
+                </li>
+                <div class="menu__lista__links__desktop">
+                  <a class="gray" href="#">Overview</a>
+                  <a class="gray" href="#">Pricing</a>
+                  <a class="gray" href="#">Marketplace</a>
+                  <a class="gray" href="#">Features</a>
+                  <a class="gray" href="#">Integrations</a>
+                </div>
+              </div>
+              <div>
+                <li class="title-menu-desktop">
+                  Company <img src="./images/icon-arrow-light.svg" />
+                </li>
+                <div class="menu__lista__links__desktop">
+                  <a class="gray" href="#">About</a>
+                  <a class="gray" href="#">Team</a>
+                  <a class="gray" href="#">Blog</a>
+                  <a class="gray" href="#">Careers</a>
+                </div>
+              </div>
+              <div>
+                <li class="title-menu-desktop">
+                  Connect <img src="./images/icon-arrow-light.svg" />
+                </li>
+                <div class="menu__lista__links__desktop">
+                  <a class="gray" href="#">Contact</a>
+                  <a class="gray" href="#">Newsletter</a>
+                  <a class="gray" href="#">LinkedIn</a>
+                </div>
+              </div>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu">
+          <img src="./images/icon-hamburger.svg" alt="menu" />
+        </div>
+        <div class="menu__links__login__desk">
+          <a class="title-menu-desktop" href="#">Login</a>
+          <a class="btn btn__red" href="#">Sign Up</a>
+        </div>
+      </header>
+      <nav class="menu__mobile">
+        <ul>
+          <li class="title-menu">
+            Product <img src="./images/icon-arrow-dark.svg" />
+          </li>
+          <div class="menu__lista__links">
+            <a class="gray" href="#">Overview</a>
+            <a class="gray" href="#">Pricing</a>
+            <a class="gray" href="#">Marketplace</a>
+            <a class="gray" href="#">Features</a>
+            <a class="gray" href="#">Integrations</a>
+          </div>
+          <li class="title-menu">
+            Company <img src="./images/icon-arrow-dark.svg" />
+          </li>
+          <div class="menu__lista__links">
+            <a class="gray" href="#">About</a>
+            <a class="gray" href="#">Team</a>
+            <a class="gray" href="#">Blog</a>
+            <a class="gray" href="#">Careers</a>
+          </div>
+          <li class="title-menu">
+            Connect <img src="./images/icon-arrow-dark.svg" />
+          </li>
+          <div class="menu__lista__links">
+            <a class="gray" href="#">Contact</a>
+            <a class="gray" href="#">Newsletter</a>
+            <a class="gray" href="#">LinkedIn</a>
+          </div>
+        </ul>
+        <div class="divider"></div>
+        <div class="menu__links__login">
+          <a class="title-menu" href="#">Login</a>
+          <a class="btn btn__login" href="#">Sign Up</a>
+        </div>
+      </nav>
+
+      <div class="text__hero__section">
+        <h1 class="title light hero__title">A modern publishing platform</h1>
+        <p class="description light hero__desc">
+          Grow your audience and build your online brand
+        </p>
+        <div class="buttons">
+          <a class="btn btn__red" href="#">Start for free</a>
+          <a class="btn btn__light" href="#">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="information">
+      <h2 class="title-dark">Designed for the future</h2>
+      <div
+        class="
+          information__container
+          innformation_formation-left
+          i_container-first
+        "
+      >
+        <div class="image image-first">
+          <img
+            class="img-phone"
+            src="./images/illustration-editor-mobile.svg"
+            alt="design"
+          />
+          <img
+            class="img-desktop img-desktop-right"
+            src="./images/illustration-editor-desktop.svg"
+            alt="design"
+          />
+        </div>
+        <div class="information__cont_text">
+          <div class="information__text">
+            <h2 class="title-dark title-dark-smaller">
+              Introducing an extensible editor
+            </h2>
+            <p class="description gray">
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+          </div>
+          <div class="information__text">
+            <h2 class="title-dark title-dark-smaller">
+              Robust content management
+            </h2>
+            <p class="description gray">
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero-dark">
+      <div class="container">
+        <div class="image">
+          <img src="./images/illustration-phones.svg" alt="phones" />
+        </div>
+        <div class="information__text">
+          <h2 class="title light">State of the Art Infrastructure</h2>
+          <p class="description light light__p">
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="information information-right">
+      <div class="information__container information__container-second">
+        <div class="image image-sec">
+          <img
+            class="img-phone"
+            src="./images/illustration-laptop-mobile.svg"
+            alt="laptop"
+          />
+          <img
+            class="img-desktop img-desktop-left"
+            src="./images/illustration-laptop-desktop.svg"
+            alt="laptop"
+          />
+        </div>
+        <div class="information__cont_text">
+          <div class="information__text">
+            <h2 class="title-dark title-dark-smaller">Free, open, simple</h2>
+            <p class="description gray">
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+          <div class="information__text">
+            <h2 class="title-dark title-dark-smaller">Powerful tooling</h2>
+            <p class="description gray">
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <div class="footer__links">
+        <h1 class="footer__title">Product</h1>
+        <ul>
+          <li><a href="">Overview</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Marketplace</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Integrations</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h1 class="footer__title">Company</h1>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Team</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h1 class="footer__title">Connect</h1>
+        <ul>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Newsletter</a></li>
+          <li><a href="">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
